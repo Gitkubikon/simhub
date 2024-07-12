@@ -1,0 +1,1 @@
+import{e}from"./TextOverlayItem-BcN_gvXw.js";const t={readOnly:!0,get(){return e(this.view)}};var a,o;(o=a||(a={}))[o.Auto=0]="Auto",o[o.Euclidean=1]="Euclidean",o[o.Geodesic=2]="Geodesic";export{t as a,a as e};

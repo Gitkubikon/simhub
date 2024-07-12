@@ -1,0 +1,6 @@
+import"./index-DSIPxOWi.js";
+/*!
+ * All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+ * See https://github.com/Esri/calcite-design-system/blob/dev/LICENSE.md for details.
+ * v2.10.1
+ */const t="calcite-list",e="calcite-list-item";function getListItemChildLists(e){return Array.from(e.assignedElements({flatten:!0}).filter((e=>e.matches(t))))}function getListItemChildren(i){const l=i.assignedElements({flatten:!0}),s=l.filter((t=>null==t?void 0:t.matches("calcite-list-item-group"))).map((t=>Array.from(t.querySelectorAll(e)))).reduce(((t,e)=>[...t,...e]),[]),n=l.filter((t=>null==t?void 0:t.matches(e)));return[...l.filter((e=>null==e?void 0:e.matches(t))).map((t=>Array.from(t.querySelectorAll(e)))).reduce(((t,e)=>[...t,...e]),[]),...s,...n]}function updateListItemChildren(t){t.forEach((e=>{e.setPosition=t.indexOf(e)+1,e.setSize=t.length}))}function getDepth(t,e=!1){const i=e?"ancestor::calcite-list-item | ancestor::calcite-list-item-group":"ancestor::calcite-list-item";return document.evaluate(i,t,null,XPathResult.UNORDERED_NODE_SNAPSHOT_TYPE,null).snapshotLength}export{getListItemChildren as a,getListItemChildLists as b,getDepth as g,updateListItemChildren as u};
