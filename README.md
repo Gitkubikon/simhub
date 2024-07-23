@@ -1,7 +1,3 @@
-Sure! Here is a cool README for your project:
-
----
-
 # Senary Racing Sim Hub Center
 
 Welcome to the official repository of the **Senary Racing Sim Hub Center**! This project combines the power of Rust and cutting-edge web technologies to deliver a high-performance, immersive experience for racing simulation enthusiasts.
