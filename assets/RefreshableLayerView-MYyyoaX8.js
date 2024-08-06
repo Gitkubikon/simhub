@@ -1,1 +1,0 @@
-import{e,a as s,bd as r,W as t,n as h}from"./index-DSIPxOWi.js";const i=d=>{let l=class a extends d{initialize(){this.addHandles(r((()=>this.layer),"refresh",(e=>{this.doRefresh(e.dataChanged).catch((e=>{t(e)||h.getLogger(this).error(e)}))})),"RefreshableLayerView")}};return l=e([s("esri.views.layers.RefreshableLayerView")],l),l};export{i};

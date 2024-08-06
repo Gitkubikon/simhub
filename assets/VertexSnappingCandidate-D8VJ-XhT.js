@@ -1,1 +1,0 @@
-import{n as t,g as n}from"./SnappingManagerPool-BslN_FM5.js";import{n as i}from"./PointSnappingHint-Ct-FTQTL.js";class r extends t{constructor(t){super({...t,constraint:new n(t.targetPoint)})}get hints(){return[new i(this.targetPoint,this.isDraped,this.domain)]}}export{r};

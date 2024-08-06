@@ -1,1 +1,0 @@
-import{dL as s}from"./index-DSIPxOWi.js";import{s as o}from"./SnappingManagerPool-BslN_FM5.js";class n extends o{constructor(s,o,t){super(o,t),this.point=s}equals(o){return o instanceof n&&s(this.point,o.point)}}export{n};

@@ -1,1 +1,0 @@
-import{fa as e,fb as f}from"./index-DSIPxOWi.js";function u(e,r){return r.push(e.buffer),{buffer:e.buffer,layout:new f(e.layout)}}function t(f){return new e(f.layout).createView(f.buffer)}export{t,u};

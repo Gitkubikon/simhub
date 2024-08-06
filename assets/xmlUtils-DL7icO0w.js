@@ -1,1 +1,0 @@
-function o(c,f){if(c&&f)for(const i of c.children)if(i.localName in f){const c=f[i.localName];if("function"==typeof c){const f=c(i);f&&o(i,f)}else o(i,c)}}function*n(c,f){for(const i of c.children)if(i.localName in f){const c=f[i.localName];"function"==typeof c?yield c(i):yield*n(i,c)}}export{n,o};
